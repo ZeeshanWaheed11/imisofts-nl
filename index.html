@@ -9,28 +9,26 @@
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="alternate" hreflang="nl" href="https://imisofts.nl/">
 <link rel="alternate" hreflang="de" href="https://imisofts.de/">
+<link rel="alternate" hreflang="en-GB" href="https://imisofts.uk/">
 <link rel="alternate" hreflang="en" href="https://imisofts.com/">
 <link rel="alternate" hreflang="x-default" href="https://imisofts.com/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="AI Automatisering en Groei Bureau in Nederland | imisofts">
-<meta property="og:description" content="AI automatisering, leadgeneratie en webontwikkeling die omzet oplevert. Live in 30 tot 90 dagen.">
+<meta property="og:description" content="imisofts bouwt AI automatisering, leadgeneratie en moderne webontwikkeling die omzet oplevert. Live in 30 tot 90 dagen. Vraag een gratis audit aan.">
 <meta property="og:url" content="https://imisofts.nl/">
 <meta property="og:locale" content="nl_NL">
 <meta property="og:site_name" content="imisofts">
 <meta name="theme-color" content="#0f172a">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='4' y='18' width='6' height='10' rx='1.5' fill='%23F45407'/%3E%3Crect x='13' y='11' width='6' height='17' rx='1.5' fill='%23F45407'/%3E%3Crect x='22' y='4' width='6' height='24' rx='1.5' fill='%23F45407'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"ProfessionalService","name":"imisofts","url":"https://imisofts.nl/","description":"AI automatisering, leadgeneratie en webontwikkeling voor bedrijven in Nederland.","areaServed":"NL","knowsLanguage":["nl","en"],"sameAs":["https://imisofts.com/","https://imisofts.de/"],"email":"growth@imisofts.com","serviceType":["AI automatisering","Leadgeneratie","Cold email","Webontwikkeling","E-commerce"]}
-</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"imisofts","url":"https://imisofts.nl/","areaServed":"NL","email":"growth@imisofts.com","knowsLanguage":["nl","en"],"sameAs":["https://imisofts.com/","https://imisofts.nl/","https://imisofts.de/","https://imisofts.uk/"]}</script>
 <style>
 :root{
-  --ink:#0f172a; --ink-2:#1e293b; --text:#1f2430; --muted:#64707f; --line:#e8ebf0;
-  --bg:#ffffff; --soft:#f7f9fc; --accent:#F45407; --accent-2:#ff7a3c; --accent-deep:#c8410a;
-  --maxw:1200px; --grad:linear-gradient(135deg,#F45407,#ff7a3c);
-  --sh-sm:0 1px 2px rgba(15,23,42,.06); --sh:0 12px 28px -12px rgba(15,23,42,.16); --sh-lg:0 28px 60px -22px rgba(15,23,42,.28);
+  --ink:#161318; --ink-2:#221d24; --text:#3a3540; --muted:#857f8c; --line:#ece7e0;
+  --bg:#faf7f2; --soft:#f3eee6; --card:#ffffff; --accent:#F45407; --accent-2:#ff7a3c; --accent-deep:#c8410a;
+  --maxw:1180px; --grad:linear-gradient(135deg,#F45407,#ff7a3c);
+  --sh-sm:0 1px 2px rgba(40,28,16,.05); --sh:0 16px 38px -18px rgba(40,28,16,.18); --sh-lg:0 40px 80px -30px rgba(40,28,16,.3);
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
@@ -52,11 +50,16 @@ h1,h2,h3{letter-spacing:-.02em;line-height:1.12;font-weight:700;color:var(--ink)
 .btn-lg{padding:15px 28px;font-size:16px}
 
 /* NAV */
-.nav{position:fixed;top:0;left:0;right:0;z-index:100;transition:background .3s,box-shadow .3s,border-color .3s;border-bottom:1px solid transparent}
-.nav-inner{display:flex;align-items:center;justify-content:space-between;height:70px;max-width:var(--maxw);margin:0 auto;padding:0 clamp(20px,4vw,32px)}
-.nav.scrolled{background:rgba(255,255,255,.82);backdrop-filter:saturate(180%) blur(14px);border-bottom-color:var(--line)}
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:0;transition:padding .45s cubic-bezier(.4,0,.2,1)}
+.nav.scrolled{padding:12px clamp(14px,4vw,28px)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:74px;max-width:var(--maxw);margin:0 auto;padding:0 clamp(20px,4vw,32px);border:1px solid transparent;border-radius:18px;transition:height .45s cubic-bezier(.4,0,.2,1),max-width .45s cubic-bezier(.4,0,.2,1),background .35s,box-shadow .35s,border-color .35s,padding .45s}
+.nav.scrolled .nav-inner{height:62px;max-width:940px;padding:0 10px 0 22px;background:rgba(255,253,250,.86);backdrop-filter:saturate(180%) blur(18px);border-color:var(--line);box-shadow:0 16px 44px -18px rgba(40,28,16,.26)}
+.nav.scrolled .nav-right .btn-primary{padding:9px 18px;font-size:14px}
+.nav.scrolled .nav-links a.navlink{padding:8px 12px}
 .logo{display:flex;align-items:center;gap:9px;font-weight:800;font-size:20px;letter-spacing:-.03em;color:var(--ink)}
 .logo svg{width:25px;height:25px}
+.logo .lw{transition:opacity .3s,max-width .4s cubic-bezier(.4,0,.2,1);overflow:hidden;white-space:nowrap;max-width:120px}
+.nav.scrolled .logo .lw{opacity:0;max-width:0}
 .nav-links{display:flex;align-items:center;gap:2px}
 .nav-links a.navlink{padding:9px 13px;border-radius:9px;font-size:15px;font-weight:500;color:#3c4655;transition:.15s}
 .nav-links a.navlink:hover{background:var(--soft);color:var(--ink)}
@@ -80,8 +83,8 @@ h1,h2,h3{letter-spacing:-.02em;line-height:1.12;font-weight:700;color:var(--ink)
 .hero-bg{position:absolute;inset:0;z-index:-1;background:radial-gradient(48% 42% at 80% 6%,rgba(244,84,7,.13),transparent 70%),radial-gradient(40% 38% at 5% 78%,rgba(244,84,7,.07),transparent 70%)}
 .hero-grid{position:absolute;inset:0;z-index:-1;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:56px 56px;-webkit-mask-image:radial-gradient(circle at 50% 26%,#000,transparent 70%);mask-image:radial-gradient(circle at 50% 26%,#000,transparent 70%);opacity:.45}
 .hero-wrap{display:grid;grid-template-columns:1.08fr .92fr;gap:56px;align-items:center}
-.hero h1{font-size:clamp(36px,5vw,60px);font-weight:800;margin:22px 0 20px;letter-spacing:-.035em}
-.hero h1 .hl{background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero h1{font-size:clamp(38px,5.4vw,66px);font-weight:800;margin:22px 0 22px;letter-spacing:-.04em;line-height:1.04}
+.hero h1 .hl{font-style:italic;font-weight:700;background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;padding-right:.05em}
 .hero .lead{font-size:clamp(16px,2.2vw,19px);color:var(--muted);max-width:540px;margin-bottom:30px}
 .hero-cta{display:flex;gap:13px;flex-wrap:wrap;margin-bottom:38px}
 .hero-stats{display:flex;gap:clamp(20px,4vw,38px);flex-wrap:wrap}
@@ -116,14 +119,18 @@ h1,h2,h3{letter-spacing:-.02em;line-height:1.12;font-weight:700;color:var(--ink)
 .sec{padding:clamp(64px,9vw,96px) 0}
 .sec-head{max-width:640px;margin-bottom:clamp(36px,5vw,52px)}
 .sec-head.center{margin-left:auto;margin-right:auto;text-align:center}
-.sec-head h2{font-size:clamp(28px,4vw,42px);margin:13px 0 14px;font-weight:700}
+.sec-head h2{font-size:clamp(30px,4.4vw,46px);margin:14px 0 14px;font-weight:700;letter-spacing:-.03em;line-height:1.08}
+h2 .hl,h3 .hl{font-style:italic;background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
 .sec-head p{font-size:clamp(16px,2.2vw,18px);color:var(--muted)}
 
 /* SERVICES */
 .bento{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
-.card{position:relative;background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px;transition:transform .22s,box-shadow .22s,border-color .22s;overflow:hidden}
-.card:hover{transform:translateY(-4px);box-shadow:var(--sh-lg);border-color:rgba(244,84,7,.28)}
-.card .badge{width:50px;height:50px;border-radius:13px;background:rgba(244,84,7,.1);color:var(--accent);display:flex;align-items:center;justify-content:center;margin-bottom:18px}
+.card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:32px;transition:transform .25s cubic-bezier(.4,0,.2,1),box-shadow .25s,border-color .25s;overflow:hidden}
+.card::after{content:"";position:absolute;inset:0;border-radius:22px;background:radial-gradient(130% 90% at 0% 0%,rgba(244,84,7,.07),transparent 52%);opacity:0;transition:.25s}
+.card:hover{transform:translateY(-6px);box-shadow:var(--sh-lg);border-color:rgba(244,84,7,.3)}
+.card:hover::after{opacity:1}
+.card>*{position:relative;z-index:1}
+.card .badge{width:54px;height:54px;border-radius:15px;background:var(--grad);color:#fff;display:flex;align-items:center;justify-content:center;margin-bottom:20px;box-shadow:0 14px 26px -8px rgba(244,84,7,.5)}
 .card .badge .icn{width:25px;height:25px}
 .card h3{font-size:20px;margin-bottom:9px;font-weight:700}
 .card p{color:var(--muted);font-size:14.5px;margin-bottom:16px}
@@ -134,7 +141,7 @@ h1,h2,h3{letter-spacing:-.02em;line-height:1.12;font-weight:700;color:var(--ink)
 /* WHY */
 .why{background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
-.why-item .wb{width:44px;height:44px;border-radius:11px;background:#fff;border:1px solid var(--line);color:var(--accent);display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+.why-item .wb{width:48px;height:48px;border-radius:14px;background:var(--grad);color:#fff;display:flex;align-items:center;justify-content:center;margin-bottom:16px;box-shadow:0 14px 26px -10px rgba(244,84,7,.5)}
 .why-item h3{font-size:18px;margin-bottom:8px;font-weight:700}
 .why-item p{font-size:14.5px;color:var(--muted)}
 
@@ -145,7 +152,9 @@ h1,h2,h3{letter-spacing:-.02em;line-height:1.12;font-weight:700;color:var(--ink)
 .process .sec-head h2{color:#fff}
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px}
 .step{padding:28px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:16px}
-.step .sn{width:42px;height:42px;border-radius:11px;background:rgba(244,84,7,.18);color:var(--accent-2);display:flex;align-items:center;justify-content:center;font-weight:800;margin-bottom:16px}
+.step{padding:30px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:18px;transition:.25s}
+.step:hover{background:rgba(255,255,255,.08);transform:translateY(-4px)}
+.step .sn{width:46px;height:46px;border-radius:13px;background:var(--grad);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;margin-bottom:18px;box-shadow:0 14px 26px -10px rgba(244,84,7,.5)}
 .step h3{color:#fff;font-size:19px;margin-bottom:9px;font-weight:700}
 .step p{color:#aab4c2;font-size:14.5px}
 
@@ -232,235 +241,139 @@ h1,h2,h3{letter-spacing:-.02em;line-height:1.12;font-weight:700;color:var(--ink)
   .fab{padding:13px}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+
+.phero{padding:128px 0 56px;position:relative;overflow:hidden;text-align:center}
+.phero .container{max-width:840px}
+.phero h1{font-size:clamp(32px,4.6vw,52px);font-weight:800;letter-spacing:-.035em;margin:20px 0 18px;color:var(--ink);line-height:1.12}
+.phero h1 .hl{font-style:italic;background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.phero .lead{font-size:clamp(16px,2.2vw,19px);color:var(--muted);max-width:640px;margin:0 auto 28px}
+.phero .hero-cta{justify-content:center;display:flex;gap:13px;flex-wrap:wrap}
+.offer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.offer{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px;transition:.2s}
+.offer:hover{box-shadow:var(--sh);transform:translateY(-3px);border-color:rgba(244,84,7,.25)}
+.offer .badge{width:42px;height:42px;border-radius:11px;background:rgba(244,84,7,.1);color:var(--accent);display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+.offer h3{font-size:17px;margin-bottom:7px;font-weight:700;color:var(--ink)}
+.offer p{font-size:14px;color:var(--muted)}
+.faq{max-width:800px;margin:0 auto}
+.faq details{border:1px solid var(--line);border-radius:13px;margin-bottom:12px;background:#fff}
+.faq summary{padding:18px 22px;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center;color:var(--ink);font-size:15.5px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:24px;color:var(--accent);font-weight:300;line-height:1}
+.faq details[open] summary::after{content:"\2013"}
+.faq .fa{padding:0 22px 20px;color:var(--muted);font-size:15px}
+.prose{max-width:760px;margin:0 auto}
+.prose h2{font-size:23px;margin:30px 0 12px;font-weight:700;color:var(--ink)}
+.prose p{color:var(--muted);margin-bottom:14px}
+.prose ul{color:var(--muted);margin:0 0 14px 20px}.prose li{margin-bottom:7px}
+.prose a{color:var(--accent-deep);font-weight:600}
+.nf{text-align:center;padding:150px 0 110px}
+.nf h1{font-size:clamp(72px,12vw,110px);font-weight:800;background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;line-height:1}
+.nf p{font-size:19px;color:var(--muted);margin:12px 0 26px}
+@media(max-width:900px){.offer-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.offer-grid{grid-template-columns:1fr}.phero{padding:104px 0 44px}}
+/* ===== POLISH ===== */
+.impact{background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.impact-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.metric{text-align:center;padding:16px clamp(12px,2.4vw,28px);position:relative}
+.metric+.metric::before{content:"";position:absolute;left:0;top:8px;bottom:8px;width:1px;background:var(--line)}
+.metric b{display:block;font-size:clamp(34px,5vw,54px);font-weight:800;letter-spacing:-.035em;background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;line-height:1;font-variant-numeric:tabular-nums}
+.metric span{display:block;font-size:14px;color:var(--muted);margin-top:11px;font-weight:500}
+@media(max-width:760px){.impact-grid{grid-template-columns:repeat(2,1fr);gap:30px 8px}.metric+.metric::before{display:none}}
+.vs-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:940px;margin:0 auto}
+.vs-col{background:#fff;border:1px solid var(--line);border-radius:20px;padding:30px}
+.vs-col.win{border-color:rgba(244,84,7,.35);box-shadow:0 28px 60px -28px rgba(244,84,7,.45);position:relative;background:linear-gradient(180deg,rgba(244,84,7,.05),var(--card))}
+.vs-col.win::before{content:attr(data-badge);position:absolute;top:-12px;left:24px;background:var(--grad);color:#fff;font-size:12px;font-weight:700;padding:5px 13px;border-radius:100px}
+.vs-col h3{font-size:18px;margin-bottom:16px;font-weight:700}
+.vs-row{display:flex;gap:11px;align-items:flex-start;padding:9px 0;font-size:14.5px}
+.vs-row .vi{width:22px;height:22px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;margin-top:1px}
+.vs-row .vi.no{background:rgba(120,120,130,.12);color:#94a0ad}
+.vs-row .vi.yes{background:rgba(22,163,74,.12);color:#16a34a}
+.vs-row .vi .icn{width:13px;height:13px;stroke-width:2.6}
+.vs-row.dim{color:var(--muted)}
+@media(max-width:760px){.vs-grid{grid-template-columns:1fr}}
+.featq{max-width:880px;margin:0 auto;background:var(--card);border:1px solid var(--line);border-radius:28px;padding:clamp(36px,5vw,58px);box-shadow:var(--sh-lg);position:relative;overflow:hidden;text-align:center}
+.featq::before{content:"";position:absolute;top:-70px;right:-50px;width:260px;height:260px;background:var(--grad);filter:blur(80px);opacity:.12;border-radius:50%}
+.featq>*{position:relative}
+.featq-mark{font-family:Georgia,serif;font-size:84px;line-height:.5;color:rgba(244,84,7,.25);font-weight:800;height:46px}
+.featq-q{font-size:clamp(20px,2.6vw,30px);font-weight:600;color:var(--ink);letter-spacing:-.02em;line-height:1.32;margin:14px auto 30px;max-width:700px}
+.featq-who{display:inline-flex;align-items:center;gap:14px;justify-content:center;flex-wrap:wrap}
+.featq-who .av{width:48px;height:48px;border-radius:50%;background:var(--grad);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px;flex:none}
+.featq-who .nm{font-weight:700;font-size:15px;color:var(--ink);text-align:left}
+.featq-who .rl{font-size:13.5px;color:var(--muted);text-align:left}
+.featq-logo{margin-left:6px;font-weight:800;color:var(--muted);font-size:14px;border-left:1px solid var(--line);padding-left:16px}
+.quote-ph{font-size:12px;color:var(--muted);text-align:center;margin-top:22px;font-style:italic}
 </style>
 </head>
 <body>
-
-<!-- NAV -->
-<nav class="nav" id="nav">
-  <div class="nav-inner">
-    <a href="/" class="logo" aria-label="imisofts home">
-      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="18" width="6" height="10" rx="1.5" fill="#F45407"/><rect x="13" y="11" width="6" height="17" rx="1.5" fill="#F45407"/><rect x="22" y="4" width="6" height="24" rx="1.5" fill="#F45407"/></svg>
-      imisofts
-    </a>
-    <div class="nav-links" id="navlinks">
-      <div class="has-drop">
-        <a href="#diensten" class="navlink" data-en="Services">Diensten</a>
-        <div class="drop">
-          <a href="/ai-automatisering"><span class="di"><svg class="icn" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/></svg></span><span><span class="dt" data-en="AI Automation &amp; Agents">AI Automatisering &amp; Agents</span><span class="dd" data-en="Agents that do the work">Agents die het werk doen</span></span></a>
-          <a href="/leadgeneratie"><span class="di"><svg class="icn" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg></span><span><span class="dt" data-en="Lead Gen &amp; Cold Email">Leadgeneratie &amp; Cold Email</span><span class="dd" data-en="Outbound that fills your pipeline">Outbound die je pipeline vult</span></span></a>
-          <a href="/webontwikkeling"><span class="di"><svg class="icn" viewBox="0 0 24 24"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></span><span><span class="dt" data-en="Web, App &amp; SaaS">Web, App &amp; SaaS</span><span class="dd" data-en="Shipped in weeks, built to scale">In weken opgeleverd, schaalbaar</span></span></a>
-          <a href="/ecommerce"><span class="di"><svg class="icn" viewBox="0 0 24 24"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></span><span><span class="dt" data-en="E-commerce &amp; Shopify">E-commerce &amp; Shopify</span><span class="dd" data-en="Stores built to convert">Winkels die converteren</span></span></a>
-        </div>
-      </div>
-      <a href="#werkwijze" class="navlink" data-en="Process">Werkwijze</a>
-      <a href="#waarom" class="navlink" data-en="Why us">Waarom imisofts</a>
-      <a href="#contact" class="navlink">Contact</a>
-    </div>
-    <div class="nav-right">
-      <div class="lang" role="group" aria-label="Taal">
-        <button class="active" data-lang="nl">NL</button>
-        <button data-lang="en">EN</button>
-      </div>
-      <a href="#contact" class="btn btn-primary" data-en="Free audit">Gratis audit</a>
-      <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><svg class="icn" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
-    </div>
-  </div>
-</nav>
-
-<!-- HERO -->
-<header class="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-grid"></div>
-  <div class="container hero-wrap">
-    <div>
-      <span class="eyebrow"><span class="dot"></span><span data-en="AI automation &amp; growth, now in the Netherlands">AI automatisering en groei, nu in Nederland</span></span>
-      <h1 data-en="We build AI automation and growth systems that &lt;span class='hl'&gt;actually drive revenue&lt;/span&gt;.">Wij bouwen AI automatisering en groeisystemen die <span class="hl">echt omzet opleveren</span>.</h1>
-      <p class="lead" data-en="From cold email infrastructure to AI agents that close deals, we build what scales and then we run it for you. Live in 30 to 90 days, not someday.">Van cold email infrastructuur tot AI agents die deals sluiten. Wij bouwen wat schaalt, en draaien het vervolgens voor je. Live in 30 tot 90 dagen, niet ooit.</p>
-      <div class="hero-cta">
-        <a href="#contact" class="btn btn-primary btn-lg" data-en="Get a free audit">Gratis audit aanvragen <svg class="icn" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-        <a href="#diensten" class="btn btn-ghost btn-lg" data-en="See our services">Bekijk onze diensten</a>
-      </div>
-      <div class="hero-stats">
-        <div class="s"><b>500+</b><span data-en="projects delivered">projecten opgeleverd</span></div>
-        <div class="s"><b>95%+</b><span data-en="inbox rate">inbox rate</span></div>
-        <div class="s"><b>$2M+</b><span data-en="pipeline generated">pipeline gegenereerd</span></div>
-        <div class="s"><b>48u</b><span data-en="to first results">tot eerste resultaten</span></div>
-      </div>
-    </div>
-    <div class="hero-visual">
-      <div class="chip c1"><span class="pulse"></span><span data-en="AI agent live">AI agent live</span></div>
-      <div class="chip c2"><svg class="icn" viewBox="0 0 24 24"><path d="M23 6l-9.5 9.5-5-5L1 18"/><path d="M17 6h6v6"/></svg><span data-en="Reply rate 14%">Reply rate 14%</span></div>
-      <div class="snap">
-        <div class="snap-glow"></div>
-        <h4><svg class="icn" viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg><span data-en="DELIVERY SNAPSHOT">LEVERINGSOVERZICHT</span></h4>
-        <div class="snap-row"><span data-en="Active projects">Actieve projecten</span><b>12</b></div>
-        <div class="snap-row"><span data-en="Deployments this week">Deployments deze week</span><b>6</b></div>
-        <div class="snap-row"><span data-en="Client satisfaction">Klanttevredenheid</span><b class="up">98%</b></div>
-        <div class="snap-row"><span data-en="Avg. delivery">Gem. oplevering</span><b>4,2 weken</b></div>
-        <div class="snap-row"><span data-en="Revenue generated">Omzet gegenereerd</span><b>$2,4M</b></div>
-      </div>
-    </div>
-  </div>
-</header>
-
-<!-- STRIP -->
-<section class="strip">
-  <div class="container">
-    <p data-en="BUILT ON INDUSTRY-LEADING PLATFORMS">GEBOUWD OP TOONAANGEVENDE PLATFORMEN</p>
-    <div class="strip-logos"><span>Claude Code</span><span>Supabase</span><span>n8n</span><span>Replit</span><span>Instantly</span><span>Shopify</span></div>
-  </div>
-</section>
-
-<!-- SERVICES -->
-<section class="sec" id="diensten">
-  <div class="container">
-    <div class="sec-head reveal">
-      <span class="eyebrow"><span class="dot"></span><span data-en="What we do">Wat we doen</span></span>
-      <h2 data-en="One partner for AI, growth, and what you ship next">Eén partner voor AI, groei en wat je hierna lanceert</h2>
-      <p data-en="We do not just hand over software. We scope it, build it, and run it, so it actually delivers.">Wij leveren niet zomaar software op. Wij scopen, bouwen en draaien het, zodat het echt resultaat oplevert.</p>
-    </div>
-    <div class="bento">
-      <a href="/ai-automatisering" class="card reveal">
-        <div class="badge"><svg class="icn" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/></svg></div>
-        <h3 data-en="AI Automation &amp; AI Agents">AI Automatisering &amp; AI Agents</h3>
-        <p data-en="Custom AI agents that take real work off your team. We build, test, and maintain them so they stay in production.">Custom AI agents die echt werk uit handen nemen. Wij bouwen, testen en onderhouden ze, zodat ze in productie blijven.</p>
-        <span class="more" data-en="Learn more">Meer info <svg class="icn" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-      </a>
-      <a href="/leadgeneratie" class="card reveal">
-        <div class="badge"><svg class="icn" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg></div>
-        <h3 data-en="Lead Generation &amp; Cold Email">Leadgeneratie &amp; Cold Email</h3>
-        <p data-en="Done-for-you outbound that fills your pipeline. Deliverability, targeting, and follow-up handled end to end.">Done-for-you outbound die je pipeline vult. Deliverability, targeting en opvolging volledig geregeld.</p>
-        <span class="more" data-en="Learn more">Meer info <svg class="icn" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-      </a>
-      <a href="/webontwikkeling" class="card reveal">
-        <div class="badge"><svg class="icn" viewBox="0 0 24 24"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></div>
-        <h3 data-en="Web, App &amp; SaaS Development">Web, App &amp; SaaS Ontwikkeling</h3>
-        <p data-en="Modern websites, apps, and SaaS products, shipped in weeks and built to scale.">Moderne websites, apps en SaaS producten, opgeleverd in weken en gebouwd om te schalen.</p>
-        <span class="more" data-en="Learn more">Meer info <svg class="icn" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-      </a>
-      <a href="/ecommerce" class="card reveal">
-        <div class="badge"><svg class="icn" viewBox="0 0 24 24"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div>
-        <h3 data-en="E-commerce &amp; Shopify">E-commerce &amp; Shopify</h3>
-        <p data-en="Shopify stores and apps built to convert and to be found by the new wave of AI shoppers.">Shopify winkels en apps die converteren en vindbaar zijn voor de nieuwe golf AI shoppers.</p>
-        <span class="more" data-en="Learn more">Meer info <svg class="icn" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- WHY -->
-<section class="sec why" id="waarom">
-  <div class="container">
-    <div class="sec-head center reveal">
-      <h2 data-en="Why teams choose imisofts">Waarom teams voor imisofts kiezen</h2>
-      <p data-en="The software is the easy part. We bring the discipline that gets it live and keeps it working.">De software is het makkelijke deel. Wij brengen de discipline die het live krijgt en werkend houdt.</p>
-    </div>
-    <div class="why-grid">
-      <div class="why-item reveal"><div class="wb"><svg class="icn" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div><h3 data-en="Done for you">Volledig ontzorgd</h3><p data-en="We build it and we run it. You get outcomes, not a handover document.">Wij bouwen het en draaien het. Jij krijgt resultaat, geen overdrachtsdocument.</p></div>
-      <div class="why-item reveal"><div class="wb"><svg class="icn" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div><h3 data-en="Outcome first">Resultaat voorop</h3><p data-en="Measured in pipeline and revenue, not in features shipped.">Gemeten in pipeline en omzet, niet in opgeleverde features.</p></div>
-      <div class="why-item reveal"><div class="wb"><svg class="icn" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div><h3 data-en="AI first">AI-first</h3><p data-en="A modern stack with no legacy bloat, ready for how business works in 2026.">Een moderne stack zonder ballast, klaar voor hoe zaken werken in 2026.</p></div>
-      <div class="why-item reveal"><div class="wb"><svg class="icn" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><h3 data-en="Fast">Snel live</h3><p data-en="Live in 30 to 90 days. We ship, we do not stall in planning.">Live in 30 tot 90 dagen. Wij leveren, wij blijven niet hangen in planning.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- PROCESS -->
-<section class="sec" id="werkwijze" style="padding-bottom:0">
-  <div class="container">
-    <div class="process">
-      <div class="container">
-        <div class="sec-head center reveal" style="margin-bottom:0">
-          <span class="eyebrow" style="background:rgba(244,84,7,.18);border-color:rgba(244,84,7,.32);color:#ff7a3c"><span class="dot"></span><span data-en="How it works">Hoe het werkt</span></span>
-          <h2 data-en="From audit to live in three steps">Van audit naar live in drie stappen</h2>
-        </div>
-        <div class="steps">
-          <div class="step reveal"><div class="sn">1</div><h3 data-en="Free audit">Gratis audit</h3><p data-en="We map the highest-ROI automation or growth play for your business.">Wij brengen de automatisering of groeikans met de hoogste ROI voor jouw bedrijf in kaart.</p></div>
-          <div class="step reveal"><div class="sn">2</div><h3 data-en="We build">Wij bouwen</h3><p data-en="Tightly scoped and tested before it ships. No surprises, no bloat.">Strak afgebakend en getest voordat het live gaat. Geen verrassingen, geen ballast.</p></div>
-          <div class="step reveal"><div class="sn">3</div><h3 data-en="We run &amp; optimize">Wij draaien en optimaliseren</h3><p data-en="You see results while we maintain and improve it over time.">Jij ziet resultaat terwijl wij het onderhouden en blijven verbeteren.</p></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- CTA -->
-<section class="ctaband">
-  <div class="container">
-    <div class="ctabox reveal">
-      <h2 data-en="Ready for AI that actually delivers?">Klaar voor AI die echt resultaat oplevert?</h2>
-      <p data-en="Get a free audit and we will show you the fastest path to pipeline and revenue.">Vraag een gratis audit aan en wij laten je de snelste route naar pipeline en omzet zien.</p>
-      <a href="#contact" class="btn btn-lg" data-en="Get a free audit">Gratis audit aanvragen <svg class="icn" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section class="sec" id="contact" style="padding-top:0">
-  <div class="container contact-grid">
-    <div class="contact-left reveal">
-      <span class="eyebrow"><span class="dot"></span>Contact</span>
-      <h2 data-en="Let us build your growth engine">Laten we jouw groeimotor bouwen</h2>
-      <p class="lead" data-en="Tell us what you want to automate or grow. We reply within 24 hours with a concrete next step.">Vertel ons wat je wilt automatiseren of laten groeien. Wij reageren binnen 24 uur met een concrete vervolgstap.</p>
-      <ul class="contact-pts">
-        <li><span class="ck"><svg class="icn" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span><span data-en="Free audit, no obligation">Gratis audit, vrijblijvend</span></li>
-        <li><span class="ck"><svg class="icn" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span><span data-en="Reply within 24 hours">Reactie binnen 24 uur</span></li>
-        <li><span class="ck"><svg class="icn" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span><span data-en="Live in 30 to 90 days">Live in 30 tot 90 dagen</span></li>
-      </ul>
-    </div>
-    <!-- CLICKUP FORM EMBED SLOT: replace this form with the ClickUp Form iframe once the share link is provided -->
-    <form class="form reveal" id="leadform" autocomplete="on">
-      <div class="fg"><label data-en="Name">Naam</label><input type="text" name="name" required></div>
-      <div class="fg"><label>E-mail</label><input type="email" name="email" required></div>
-      <div class="fg"><label data-en="Company">Bedrijf</label><input type="text" name="company"></div>
-      <div class="fg"><label data-en="What do you want to build or grow?">Wat wil je bouwen of laten groeien?</label><textarea name="message" required></textarea></div>
-      <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
-      <label class="consent"><input type="checkbox" required><span data-en="I agree that imisofts may contact me about my request.">Ik ga ermee akkoord dat imisofts contact met mij opneemt over mijn aanvraag.</span></label>
-      <button type="submit" class="btn btn-primary" data-en="Send request">Aanvraag versturen <svg class="icn" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-      <p class="formnote" data-en="We never share your data.">Wij delen je gegevens nooit.</p>
-    </form>
-  </div>
-</section>
-
-<!-- FOOTER -->
-<footer class="footer">
-  <div class="container">
-    <div class="footer-top">
-      <div>
-        <div class="logo"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="18" width="6" height="10" rx="1.5" fill="#F45407"/><rect x="13" y="11" width="6" height="17" rx="1.5" fill="#F45407"/><rect x="22" y="4" width="6" height="24" rx="1.5" fill="#F45407"/></svg>imisofts</div>
-        <p class="blurb" data-en="AI automation, lead generation, and modern development for ambitious teams in the Netherlands.">AI automatisering, leadgeneratie en moderne ontwikkeling voor ambitieuze teams in Nederland.</p>
-        <p class="partof" data-en="Part of imisofts. Visit &lt;a href='https://imisofts.com/'&gt;imisofts.com&lt;/a&gt;.">Onderdeel van imisofts. Bezoek <a href="https://imisofts.com/">imisofts.com</a>.</p>
-      </div>
-      <div class="fcol">
-        <h5 data-en="Services">Diensten</h5>
-        <a href="/ai-automatisering" data-en="AI Automation">AI Automatisering</a>
-        <a href="/leadgeneratie" data-en="Lead Gen &amp; Cold Email">Leadgeneratie</a>
-        <a href="/webontwikkeling" data-en="Web &amp; App Development">Web &amp; App</a>
-        <a href="/ecommerce">E-commerce &amp; Shopify</a>
-      </div>
-      <div class="fcol">
-        <h5 data-en="Company">Bedrijf</h5>
-        <a href="#waarom" data-en="Why imisofts">Waarom imisofts</a>
-        <a href="#werkwijze" data-en="Process">Werkwijze</a>
-        <a href="#contact">Contact</a>
-        <a href="https://imisofts.com/blog/">Blog</a>
-      </div>
-      <div class="fcol">
-        <h5 data-en="Get in touch">Contact</h5>
-        <a href="mailto:growth@imisofts.com">growth@imisofts.com</a>
-        <a href="#contact" data-en="Free audit">Gratis audit</a>
-        <a href="https://linkedin.com/company/imisofts">LinkedIn</a>
-      </div>
-    </div>
-    <div class="footer-bot">
-      <span>&copy; <span id="yr"></span> imisofts. <span data-en="All rights reserved.">Alle rechten voorbehouden.</span></span>
-      <div class="legal"><a href="/privacy" data-en="Privacy">Privacybeleid</a><a href="https://imisofts.com/">imisofts.com</a></div>
-    </div>
-  </div>
-</footer>
-
-<a href="#contact" class="fab"><svg class="icn" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg><span data-en="Free audit">Gratis audit</span></a>
-
+<nav class="nav" id="nav"><div class="nav-inner">
+<a href="/" class="logo" aria-label="imisofts home"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="18" width="6" height="10" rx="1.5" fill="#F45407"/><rect x="13" y="11" width="6" height="17" rx="1.5" fill="#F45407"/><rect x="22" y="4" width="6" height="24" rx="1.5" fill="#F45407"/></svg><span class="lw">imisofts</span></a>
+<div class="nav-links" id="navlinks">
+<div class="has-drop"><a href="/#diensten" class="navlink" data-en="Services">Diensten</a><div class="drop"><a href="/ai-automatisering"><span class="di"><svg class="icn" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/></svg></span><span><span class="dt" data-en="AI Automation &amp; Agents">AI Automatisering & Agents</span><span class="dd" data-en="AI agents that take real work off your team.">AI agents die echt werk uit handen nemen.</span></span></a><a href="/leadgeneratie"><span class="di"><svg class="icn" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg></span><span><span class="dt" data-en="Lead Gen &amp; Cold Email">Leadgeneratie & Cold Email</span><span class="dd" data-en="Done-for-you outbound that fills your pipeline.">Done-for-you outbound die je pipeline vult.</span></span></a><a href="/webontwikkeling"><span class="di"><svg class="icn" viewBox="0 0 24 24"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></span><span><span class="dt" data-en="Web, App &amp; SaaS">Web, App & SaaS</span><span class="dd" data-en="Fast sites, apps and SaaS, shipped in weeks.">Snelle sites, apps en SaaS, in weken opgeleverd.</span></span></a><a href="/ecommerce"><span class="di"><svg class="icn" viewBox="0 0 24 24"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></span><span><span class="dt" data-en="E-commerce &amp; Shopify">E-commerce & Shopify</span><span class="dd" data-en="Shopify stores that convert and are AI-visible.">Shopify winkels die converteren en AI-vindbaar zijn.</span></span></a></div></div>
+<a href="/#werkwijze" class="navlink" data-en="Process">Werkwijze</a>
+<a href="/#waarom" class="navlink" data-en="Why us">Waarom imisofts</a>
+<a href="/contact" class="navlink">Contact</a>
+</div>
+<div class="nav-right">
+<div class="lang" role="group" aria-label="Language"><button class="active" data-lang="nl">NL</button><button data-lang="en">EN</button></div>
+<a href="/contact" class="btn btn-primary" data-en="Free audit">Gratis audit</a>
+<button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><svg class="icn" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+</div></div></nav>
+<header class="hero"><div class="hero-bg"></div><div class="hero-grid"></div><div class="container hero-wrap">
+<div><span class="eyebrow"><span class="dot"></span><span data-en="AI automation &amp; growth, now in the Netherlands">AI automatisering en groei, nu in Nederland</span></span>
+<h1 data-en="We build AI automation and growth systems that &lt;span class=&quot;hl&quot;&gt;actually drive revenue&lt;/span&gt;.">Wij bouwen AI automatisering en groeisystemen die <span class="hl">echt omzet opleveren</span>.</h1>
+<p class="lead" data-en="From cold email infrastructure to AI agents that close deals, we build what scales and then we run it for you. Live in 30 to 90 days, not someday.">Van cold email infrastructuur tot AI agents die deals sluiten. Wij bouwen wat schaalt, en draaien het vervolgens voor je. Live in 30 tot 90 dagen, niet ooit.</p>
+<div class="hero-cta"><a href="/contact" class="btn btn-primary btn-lg" data-en="Get a free audit">Gratis audit aanvragen <svg class="icn" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="#diensten" class="btn btn-ghost btn-lg" data-en="See our services">Bekijk onze diensten</a></div></div>
+<div class="hero-visual">
+<div class="chip c1"><span class="pulse"></span><span data-en="AI agent live">AI agent live</span></div>
+<div class="chip c2"><svg class="icn" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg><span data-en="Reply rate 14%">Reply rate 14%</span></div>
+<div class="snap"><div class="snap-glow"></div><h4><svg class="icn" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg><span data-en="DELIVERY SNAPSHOT">LEVERINGSOVERZICHT</span></h4><div class="snap-row"><span data-en="Active projects">Actieve projecten</span><b>12</b></div><div class="snap-row"><span data-en="Deployments this week">Deployments deze week</span><b>6</b></div><div class="snap-row"><span data-en="Client satisfaction">Klanttevredenheid</span><b class="up">98%</b></div><div class="snap-row"><span data-en="Avg. delivery">Gem. oplevering</span><b>4,2 weken</b></div><div class="snap-row"><span data-en="Revenue generated">Omzet gegenereerd</span><b>$2,4M</b></div></div>
+</div></div></header>
+<section class="strip"><div class="container"><p data-en="BUILT ON INDUSTRY-LEADING PLATFORMS">GEBOUWD OP TOONAANGEVENDE PLATFORMEN</p><div class="strip-logos"><span>Claude Code</span><span>Supabase</span><span>n8n</span><span>Replit</span><span>Instantly</span><span>Shopify</span></div></div></section>
+<section class="sec impact"><div class="container"><div class="sec-head center reveal"><h2 data-en="Results that matter">Resultaten die ertoe doen</h2><p data-en="The numbers our clients steer by.">Cijfers waar onze klanten op sturen.</p></div><div class="impact-grid"><div class="metric reveal"><b data-count="200" data-suffix="+">0</b><span data-en="businesses helped">bedrijven geholpen</span></div><div class="metric reveal"><b data-count="95" data-suffix="%">0</b><span data-en="inbox rate">inbox rate</span></div><div class="metric reveal"><b data-count="24" data-suffix="u">0</b><span data-en="to first reply">tot reactie</span></div><div class="metric reveal"><b data-count="98" data-suffix="%">0</b><span data-en="client satisfaction">klanttevredenheid</span></div></div></div></section>
+<section class="sec" id="diensten"><div class="container"><div class="sec-head reveal"><span class="eyebrow"><span class="dot"></span><span data-en="What we do">Wat we doen</span></span><h2 data-en="One partner for AI, growth, and what you ship next">Eén partner voor AI, groei en wat je hierna lanceert</h2><p data-en="We do not just hand over software. We scope it, build it, and run it, so it actually delivers.">Wij leveren niet zomaar software op. Wij scopen, bouwen en draaien het, zodat het echt resultaat oplevert.</p></div><div class="bento"><a href="/ai-automatisering" class="card reveal"><div class="badge"><svg class="icn" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/></svg></div><h3 data-en="AI Automation &amp; Agents">AI Automatisering & Agents</h3><p data-en="AI agents that take real work off your team.">AI agents die echt werk uit handen nemen.</p><span class="more" data-en="Learn more">Meer info <svg class="icn" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a><a href="/leadgeneratie" class="card reveal"><div class="badge"><svg class="icn" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg></div><h3 data-en="Lead Gen &amp; Cold Email">Leadgeneratie & Cold Email</h3><p data-en="Done-for-you outbound that fills your pipeline.">Done-for-you outbound die je pipeline vult.</p><span class="more" data-en="Learn more">Meer info <svg class="icn" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a><a href="/webontwikkeling" class="card reveal"><div class="badge"><svg class="icn" viewBox="0 0 24 24"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></div><h3 data-en="Web, App &amp; SaaS">Web, App & SaaS</h3><p data-en="Fast sites, apps and SaaS, shipped in weeks.">Snelle sites, apps en SaaS, in weken opgeleverd.</p><span class="more" data-en="Learn more">Meer info <svg class="icn" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a><a href="/ecommerce" class="card reveal"><div class="badge"><svg class="icn" viewBox="0 0 24 24"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div><h3 data-en="E-commerce &amp; Shopify">E-commerce & Shopify</h3><p data-en="Shopify stores that convert and are AI-visible.">Shopify winkels die converteren en AI-vindbaar zijn.</p><span class="more" data-en="Learn more">Meer info <svg class="icn" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></div></div></section>
+<section class="sec why" id="waarom"><div class="container"><div class="sec-head center reveal"><h2 data-en="Why teams choose imisofts">Waarom teams voor imisofts kiezen</h2><p data-en="The software is the easy part. We bring the discipline that gets it live and keeps it working.">De software is het makkelijke deel. Wij brengen de discipline die het live krijgt en werkend houdt.</p></div><div class="why-grid"><div class="why-item reveal"><div class="wb"><svg class="icn" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></div><h3 data-en="Done for you">Volledig ontzorgd</h3><p data-en="We build it and we run it. You get outcomes, not a handover document.">Wij bouwen het en draaien het. Jij krijgt resultaat, geen overdrachtsdocument.</p></div><div class="why-item reveal"><div class="wb"><svg class="icn" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div><h3 data-en="Outcome first">Resultaat voorop</h3><p data-en="Measured in pipeline and revenue, not in features shipped.">Gemeten in pipeline en omzet, niet in opgeleverde features.</p></div><div class="why-item reveal"><div class="wb"><svg class="icn" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div><h3 data-en="AI first">AI-first</h3><p data-en="A modern stack with no legacy bloat, ready for how business works in 2026.">Een moderne stack zonder ballast, klaar voor hoe zaken werken in 2026.</p></div><div class="why-item reveal"><div class="wb"><svg class="icn" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><h3 data-en="Fast">Snel live</h3><p data-en="Live in 30 to 90 days. We ship, we do not stall in planning.">Live in 30 tot 90 dagen. Wij leveren, wij blijven niet hangen in planning.</p></div></div></div></section>
+<section class="sec" id="werkwijze" style="padding-bottom:0"><div class="container"><div class="process"><div class="container"><div class="sec-head center reveal" style="margin-bottom:0"><span class="eyebrow" style="background:rgba(244,84,7,.18);border-color:rgba(244,84,7,.32);color:#ff7a3c"><span class="dot"></span><span data-en="How it works">Hoe het werkt</span></span><h2 data-en="From audit to live in three steps">Van audit naar live in drie stappen</h2></div><div class="steps"><div class="step reveal"><div class="sn">1</div><h3 data-en="Free audit">Gratis audit</h3><p data-en="We map the highest-ROI automation or growth play for your business.">Wij brengen de automatisering of groeikans met de hoogste ROI voor jouw bedrijf in kaart.</p></div><div class="step reveal"><div class="sn">2</div><h3 data-en="We build">Wij bouwen</h3><p data-en="Tightly scoped and tested before it ships. No surprises, no bloat.">Strak afgebakend en getest voordat het live gaat. Geen verrassingen, geen ballast.</p></div><div class="step reveal"><div class="sn">3</div><h3 data-en="We run &amp; optimize">Wij draaien en optimaliseren</h3><p data-en="You see results while we maintain and improve it over time.">Jij ziet resultaat terwijl wij het onderhouden en blijven verbeteren.</p></div></div></div></div></div></section>
+<section class="sec"><div class="container"><div class="sec-head center reveal"><h2 data-en="Build it yourself or have it built">Zelf bouwen of laten bouwen</h2><p data-en="Why teams stop struggling and bring in imisofts.">Waarom teams stoppen met aanmodderen en imisofts inschakelen.</p></div><div class="vs-grid"><div class="vs-col reveal"><h3 data-en="DIY or in-house">Zelf of in-house</h3><div class="vs-row dim"><span class="vi no"><svg class="icn" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg></span><span data-en="Months finding the right tools and people">Maanden zoeken naar de juiste tools en mensen</span></div><div class="vs-row dim"><span class="vi no"><svg class="icn" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg></span><span data-en="Pilots that stall and never reach production">Pilots die blijven steken en nooit live gaan</span></div><div class="vs-row dim"><span class="vi no"><svg class="icn" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg></span><span data-en="Costs that climb with no clear result">Kosten die oplopen zonder duidelijk resultaat</span></div><div class="vs-row dim"><span class="vi no"><svg class="icn" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg></span><span data-en="No one to maintain it when it breaks">Niemand die het onderhoudt als het stuk gaat</span></div></div><div class="vs-col win reveal" data-badge="Aanbevolen"><h3 data-en="With imisofts">Met imisofts</h3><div class="vs-row"><span class="vi yes"><svg class="icn" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span><span data-en="A working system in 30 to 90 days">Een werkend systeem in 30 tot 90 dagen</span></div><div class="vs-row"><span class="vi yes"><svg class="icn" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span><span data-en="Tested before launch, at a fixed price">Getest voordat het live gaat, tegen een vaste prijs</span></div><div class="vs-row"><span class="vi yes"><svg class="icn" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span><span data-en="Driven by pipeline and revenue, not hours">Gestuurd op pipeline en omzet, niet op uren</span></div><div class="vs-row"><span class="vi yes"><svg class="icn" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span><span data-en="We run, monitor and improve it">Wij draaien, monitoren en verbeteren het</span></div></div></div></div></section>
+<section class="sec"><div class="container"><div class="sec-head center reveal"><h2 data-en="What clients say">Wat klanten zeggen</h2><p data-en="Results from teams like yours.">Resultaten van teams zoals dat van jou.</p></div><div class="featq reveal"><div class="featq-mark">&ldquo;</div><div class="featq-q" data-en="imisofts built our cold email engine and our calendar is now full of qualified calls.">imisofts bouwde onze cold email machine en onze agenda zit nu vol gekwalificeerde calls.</div><div class="featq-who"><div class="av">IM</div><div><div class="nm">[Naam]</div><div class="rl">[Functie, Bedrijf]</div></div><span class="featq-logo">[logo]</span></div><p class="quote-ph" data-en="Placeholder: replace with real client quotes, names and logos.">Placeholder: vervang door echte klantquotes, namen en logo's.</p></div></div></section>
+<section class="sec"><div class="container"><div class="sec-head center reveal"><span class="eyebrow"><span class="dot"></span>FAQ</span><h2 data-en="Frequently asked questions">Veelgestelde vragen</h2></div><div class="faq"><details class="reveal"><summary data-en="What does a project cost?">Wat kost een project?</summary><div class="fa" data-en="It depends on scope. We start with a free audit and then give a fixed price per project, so you know where you stand up front.">Dat hangt af van de scope. Wij starten met een gratis audit en geven daarna een vaste prijs per project, zodat je vooraf weet waar je aan toe bent.</div></details><details class="reveal"><summary data-en="How fast does something go live?">Hoe snel is iets live?</summary><div class="fa" data-en="Most projects are live in 30 to 90 days. A first working version is often there sooner.">De meeste projecten zijn live in 30 tot 90 dagen. Een eerste werkende versie is er vaak sneller.</div></details><details class="reveal"><summary data-en="Do you maintain it too?">Onderhouden jullie het ook?</summary><div class="fa" data-en="Yes. We do not just build, we run and optimise it after launch too.">Ja. Wij bouwen niet alleen, wij draaien en optimaliseren het ook na livegang.</div></details><details class="reveal"><summary data-en="Do you work with our existing tools?">Werken jullie met onze bestaande tools?</summary><div class="fa" data-en="Almost always. We connect to your CRM, email, database and other systems via APIs, n8n and code.">Vrijwel altijd. Wij koppelen aan je CRM, e-mail, database en andere systemen via API's, n8n en code.</div></details><details class="reveal"><summary data-en="Which businesses do you work with?">Voor welke bedrijven werken jullie?</summary><div class="fa" data-en="SMBs, scale-ups and agencies that want AI automation, lead generation or a new product, in the Netherlands and beyond.">SMB's, scale-ups en bureaus die AI automatisering, leadgeneratie of een nieuw product willen, in Nederland en daarbuiten.</div></details></div></div></section>
+<section class="ctaband"><div class="container"><div class="ctabox reveal">
+<h2 data-en="Ready for AI that actually delivers?">Klaar voor AI die echt resultaat oplevert?</h2><p data-en="Get a free audit and we will show you the fastest path to pipeline and revenue.">Vraag een gratis audit aan en wij laten je de snelste route naar pipeline en omzet zien.</p>
+<a href="/contact" class="btn btn-lg" data-en="Get a free audit">Gratis audit aanvragen <svg class="icn" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</div></div></section>
+<section class="sec" id="contact" style="padding-top:0"><div class="container contact-grid">
+<div class="contact-left reveal"><span class="eyebrow"><span class="dot"></span>Contact</span><h2 data-en="Let us build your growth engine">Laten we jouw groeimotor bouwen</h2><p class="lead" data-en="Tell us what you want to automate or grow. We reply within 24 hours.">Vertel ons wat je wilt automatiseren of laten groeien. Wij reageren binnen 24 uur.</p>
+<ul class="contact-pts"><li><span class="ck"><svg class="icn" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span><span data-en="Free audit, no obligation">Gratis audit, vrijblijvend</span></li><li><span class="ck"><svg class="icn" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span><span data-en="Reply within 24 hours">Reactie binnen 24 uur</span></li><li><span class="ck"><svg class="icn" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span><span data-en="Live in 30 to 90 days">Live in 30 tot 90 dagen</span></li></ul></div>
+<!-- CLICKUP FORM EMBED SLOT: replace this form with the ClickUp Form iframe when the share link is provided -->
+<form class="form reveal" id="leadform" autocomplete="on">
+<div class="fg"><label data-en="Name">Naam</label><input type="text" name="name" required></div>
+<div class="fg"><label>E-mail</label><input type="email" name="email" required></div>
+<div class="fg"><label data-en="Company">Bedrijf</label><input type="text" name="company"></div>
+<div class="fg"><label data-en="What do you want to build or grow?">Wat wil je bouwen of laten groeien?</label><textarea name="message" required></textarea></div>
+<input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+<label class="consent"><input type="checkbox" required><span data-en="I agree that imisofts may contact me about my request.">Ik ga ermee akkoord dat imisofts contact met mij opneemt over mijn aanvraag.</span></label>
+<button type="submit" class="btn btn-primary" data-en="Send request">Aanvraag versturen <svg class="icn" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+<p class="formnote" data-en="We never share your data.">Wij delen je gegevens nooit.</p>
+</form></div></section>
+<footer class="footer"><div class="container">
+<div class="footer-top">
+<div><div class="logo"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="18" width="6" height="10" rx="1.5" fill="#F45407"/><rect x="13" y="11" width="6" height="17" rx="1.5" fill="#F45407"/><rect x="22" y="4" width="6" height="24" rx="1.5" fill="#F45407"/></svg>imisofts</div>
+<p class="blurb" data-en="AI automation, lead generation, and modern development for ambitious teams in the Netherlands.">AI automatisering, leadgeneratie en moderne ontwikkeling voor ambitieuze teams in Nederland.</p>
+<p class="partof">Onderdeel van imisofts. Bezoek <a href="https://imisofts.com/">imisofts.com</a>.</p></div>
+<div class="fcol"><h5 data-en="Services">Diensten</h5><a href="/ai-automatisering" data-en="AI Automation &amp; Agents">AI Automatisering & Agents</a><a href="/leadgeneratie" data-en="Lead Gen &amp; Cold Email">Leadgeneratie & Cold Email</a><a href="/webontwikkeling" data-en="Web, App &amp; SaaS">Web, App & SaaS</a><a href="/ecommerce" data-en="E-commerce &amp; Shopify">E-commerce & Shopify</a></div>
+<div class="fcol"><h5 data-en="Company">Bedrijf</h5>
+<a href="/#waarom" data-en="Why imisofts">Waarom imisofts</a>
+<a href="/#werkwijze" data-en="Process">Werkwijze</a>
+<a href="/contact">Contact</a>
+<a href="https://imisofts.com/blog/">Blog</a></div>
+<div class="fcol"><h5 data-en="Get in touch">Contact</h5>
+<a href="mailto:growth@imisofts.com">growth@imisofts.com</a>
+<a href="/contact" data-en="Free audit">Gratis audit</a>
+<a href="https://linkedin.com/company/imisofts">LinkedIn</a></div>
+</div>
+<div class="footer-bot"><span>&copy; <span id="yr"></span> imisofts. <span data-en="All rights reserved.">Alle rechten voorbehouden.</span></span>
+<div class="legal"><a href="/privacy" data-en="Privacy">Privacybeleid</a><a href="https://imisofts.com/">imisofts.com</a></div></div>
+</div></footer>
+<a href="/contact" class="fab"><svg class="icn" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg><span data-en="Free audit">Gratis audit</span></a>
 <script>
 (function(){
   var nav=document.getElementById('nav'), links=document.getElementById('navlinks'), burger=document.getElementById('burger');
@@ -478,6 +391,5 @@ h1,h2,h3{letter-spacing:-.02em;line-height:1.12;font-weight:700;color:var(--ink)
   var f=document.getElementById('leadform');
   if(f){f.addEventListener('submit',function(e){e.preventDefault();if(f.website.value)return;var b=f.querySelector('button[type=submit]');var t=b.innerHTML;b.textContent=document.documentElement.lang==='en'?'Sent':'Verzonden';b.style.background='#16a34a';setTimeout(function(){f.reset();b.innerHTML=t;b.style.background='';},2200);});}
 })();
-</script>
-</body>
-</html>
+(function(){function f(v,d,s){return (d?v.toFixed(1):Math.round(v))+s;}function an(el){var t=parseFloat(el.getAttribute('data-count'));var s=el.getAttribute('data-suffix')||'';var d=(t%1!==0)?1:0;var dur=1400,t0=null;function st(ts){if(!t0)t0=ts;var p=Math.min((ts-t0)/dur,1);var e=1-Math.pow(1-p,3);el.textContent=f(t*e,d,s);if(p<1)requestAnimationFrame(st);else el.textContent=f(t,d,s);}requestAnimationFrame(st);}var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){an(e.target);io.unobserve(e.target);}})},{threshold:.4});document.querySelectorAll('[data-count]').forEach(function(el){io.observe(el)});})();</script>
+</body></html>
