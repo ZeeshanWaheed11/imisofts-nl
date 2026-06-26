@@ -471,6 +471,8 @@ h2 .hl,h3 .hl{font-style:italic;background:var(--grad);-webkit-background-clip:t
 h3{font-weight:600}
 .hero .lead,.shero .lead{font-size:clamp(17px,2.1vw,20px);line-height:1.55}
 .eyebrow{letter-spacing:.02em}
+.cuform{border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:var(--sh-lg);background:#fff}
+.cuform iframe{display:block;width:100%;border:0}
 </style>
 </head>
 <body>
@@ -512,17 +514,7 @@ h3{font-weight:600}
 <section class="sec" id="contact" style="padding-top:0"><div class="container contact-grid">
 <div class="contact-left reveal"><span class="eyebrow"><span class="dot"></span>Contact</span><h2 data-en="Let us build your growth engine">Laten we jouw groeimotor bouwen</h2><p class="lead" data-en="Tell us what you want to automate or grow. We reply within 24 hours.">Vertel ons wat je wilt automatiseren of laten groeien. Wij reageren binnen 24 uur.</p>
 <ul class="contact-pts"><li><span class="ck"><svg class="icn" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span><span data-en="Free audit, no obligation">Gratis audit, vrijblijvend</span></li><li><span class="ck"><svg class="icn" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span><span data-en="Reply within 24 hours">Reactie binnen 24 uur</span></li><li><span class="ck"><svg class="icn" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg></span><span data-en="Live in 30 to 90 days">Live in 30 tot 90 dagen</span></li></ul></div>
-<!-- CLICKUP FORM EMBED SLOT: replace this form with the ClickUp Form iframe when the share link is provided -->
-<form class="form reveal" id="leadform" autocomplete="on">
-<div class="fg"><label data-en="Name">Naam</label><input type="text" name="name" required></div>
-<div class="fg"><label>E-mail</label><input type="email" name="email" required></div>
-<div class="fg"><label data-en="Company">Bedrijf</label><input type="text" name="company"></div>
-<div class="fg"><label data-en="What do you want to build or grow?">Wat wil je bouwen of laten groeien?</label><textarea name="message" required></textarea></div>
-<input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
-<label class="consent"><input type="checkbox" required><span data-en="I agree that imisofts may contact me about my request.">Ik ga ermee akkoord dat imisofts contact met mij opneemt over mijn aanvraag.</span></label>
-<button type="submit" class="btn btn-primary" data-en="Send request">Aanvraag versturen <svg class="icn" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-<p class="formnote" data-en="We never share your data.">Wij delen je gegevens nooit.</p>
-</form></div></section>
+<div class="cuform reveal"><iframe class="clickup-embed clickup-dynamic-height" src="https://forms.clickup.com/90182475304/p/f/2kzmpqh8-778/LRSQ2Q9CSVZE21JQM2/contact-us-form-all-pages" onwheel="" width="100%" height="100%" title="Contact imisofts" style="background:transparent;border:0;width:100%;min-height:760px"></iframe></div><script async src="https://app-cdn.clickup.com/assets/js/forms-embed/v1.js"></script></div></section>
 <footer class="footer"><div class="container">
 <div class="footer-cta"><h4 data-en="Ready for AI that actually delivers?">Klaar voor AI die echt resultaat oplevert?</h4><a href="/contact" class="btn btn-primary" data-en="Get a free audit">Gratis audit aanvragen <svg class="icn" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
 <div class="footer-top">
