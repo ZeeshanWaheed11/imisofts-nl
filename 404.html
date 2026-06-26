@@ -21,7 +21,7 @@
 <meta name="theme-color" content="#0f172a">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='4' y='18' width='6' height='10' rx='1.5' fill='%23F45407'/%3E%3Crect x='13' y='11' width='6' height='17' rx='1.5' fill='%23F45407'/%3E%3Crect x='22' y='4' width='6' height='24' rx='1.5' fill='%23F45407'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"imisofts","url":"https://imisofts.nl/","areaServed":"NL","email":"growth@imisofts.com","knowsLanguage":["nl","en"],"sameAs":["https://imisofts.com/","https://imisofts.nl/","https://imisofts.de/","https://imisofts.uk/"]}</script>
 <style>
 :root{
@@ -219,7 +219,7 @@ h2 .hl,h3 .hl{font-style:italic;background:var(--grad);-webkit-background-clip:t
 .fab .icn{width:16px;height:16px;color:var(--accent-2)}
 .fab:hover{transform:translateY(-3px);background:#0b1220}
 
-.reveal{opacity:0;transform:translateY(22px);transition:opacity .6s,transform .6s}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .75s cubic-bezier(.22,1,.36,1),transform .75s cubic-bezier(.22,1,.36,1)}
 .reveal.in{opacity:1;transform:none}
 
 /* ===== RESPONSIVE ===== */
@@ -455,6 +455,19 @@ h2 .hl,h3 .hl{font-style:italic;background:var(--grad);-webkit-background-clip:t
 .why-item:hover .wb{transform:scale(1.09) rotate(-6deg)}
 .why-grid>.reveal:nth-child(2){transition-delay:.08s}.why-grid>.reveal:nth-child(3){transition-delay:.16s}.why-grid>.reveal:hover{transition-delay:0s}
 @media(max-width:900px){.why-grid{grid-template-columns:1fr}}
+/* ===== EDITORIAL TYPOGRAPHY (granola-inspired serif display) ===== */
+:root{--serif:"Instrument Serif",ui-serif,Georgia,"Times New Roman",serif}
+.hero h1,.shero h1,.phero h1,.nf h1,.sec-head h2,.whyx-head h2,.contact-left h2,.ctabox h2,.featq-q,.footer-cta h4{font-family:var(--serif);font-weight:400}
+.hero h1,.shero h1{font-size:clamp(46px,6.4vw,84px);line-height:1.0;letter-spacing:-.02em;margin-bottom:22px}
+.phero h1,.nf h1{letter-spacing:-.015em}
+.sec-head h2,.whyx-head h2,.contact-left h2{font-size:clamp(34px,4.9vw,56px);line-height:1.04;letter-spacing:-.015em}
+.ctabox h2{font-size:clamp(30px,4.1vw,48px);line-height:1.06;letter-spacing:-.015em}
+.featq-q{font-size:clamp(25px,3.1vw,38px);line-height:1.26;letter-spacing:-.008em}
+.footer-cta h4{font-size:clamp(23px,2.9vw,32px);letter-spacing:-.01em}
+.hero h1 .hl,.shero h1 .hl,.phero h1 .hl,.sec-head h2 .hl,.whyx-head h2 .hl,.ctabox h2 .hl,.contact-left h2 .hl{font-family:var(--serif);font-style:italic;font-weight:400}
+h3{font-weight:600}
+.hero .lead,.shero .lead{font-size:clamp(17px,2.1vw,20px);line-height:1.55}
+.eyebrow{letter-spacing:.02em}
 </style>
 </head>
 <body>
