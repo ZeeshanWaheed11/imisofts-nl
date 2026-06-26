@@ -22,17 +22,20 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='4' y='18' width='6' height='10' rx='1.5' fill='%23F45407'/%3E%3Crect x='13' y='11' width='6' height='17' rx='1.5' fill='%23F45407'/%3E%3Crect x='22' y='4' width='6' height='24' rx='1.5' fill='%23F45407'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&display=swap" rel="stylesheet">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"imisofts","url":"https://imisofts.nl/","areaServed":"NL","email":"growth@imisofts.com","knowsLanguage":["nl","en"],"sameAs":["https://imisofts.com/","https://imisofts.nl/","https://imisofts.de/","https://imisofts.uk/"]}</script>
 <style>
 :root{
   --ink:#0f172a; --ink-2:#1e293b; --text:#334155; --muted:#64748b; --line:#e7eaf0;
   --bg:#ffffff; --soft:#f7f9fc; --card:#ffffff; --accent:#F45407; --accent-2:#ff7a3c; --accent-deep:#c8410a;
+  --sans:"Switzer","Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
   --maxw:1180px; --grad:linear-gradient(135deg,#F45407,#ff7a3c);
   --sh-sm:0 1px 2px rgba(15,23,42,.05); --sh:0 16px 38px -18px rgba(15,23,42,.16); --sh-lg:0 40px 80px -30px rgba(15,23,42,.22);
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-body{font-family:Inter,system-ui,-apple-system,sans-serif;color:var(--text);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body{font-family:var(--sans);color:var(--text);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
 svg{display:block}
 img{max-width:100%;display:block}
@@ -440,7 +443,7 @@ h2 .hl,h3 .hl{font-style:italic;background:var(--grad);-webkit-background-clip:t
 .socials a{width:38px;height:38px;border-radius:10px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;color:#c2cad6;transition:.2s}
 .socials a:hover{background:var(--grad);color:#fff;border-color:transparent;transform:translateY(-3px)}
 .socials .icn{width:18px;height:18px}
-.mk text{font-family:Inter,system-ui,-apple-system,sans-serif}
+.mk text{font-family:var(--sans)}
 .offer::after{content:"";position:absolute;inset:0;border-radius:18px;background:radial-gradient(120% 80% at 100% 0%,rgba(244,84,7,.07),transparent 55%);opacity:0;transition:opacity .25s;z-index:0}
 .offer:hover::after{opacity:1}
 .offer>*{position:relative;z-index:1}
