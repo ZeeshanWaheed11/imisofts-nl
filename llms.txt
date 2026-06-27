@@ -1,0 +1,15 @@
+# imisofts
+> AI automation, lead generation and web & e-commerce development agency serving the Netherlands (Dutch market). Systems go live in 30 to 90 days, fixed project pricing, fully operated by us.
+
+imisofts builds and runs: AI automation and AI agents (n8n, custom code, Claude/GPT); B2B lead generation via cold-email infrastructure (Instantly.ai, dedicated warmed-up domains, ICP data, deliverability optimization); modern web & SaaS development (Next.js, React, Supabase, Cloudflare); and Shopify e-commerce with conversion optimization. Contact: growth@imisofts.com.
+
+## Services
+- [AI automation and agents that do the work.](https://imisofts.nl/ai-automatisering): Wij bouwen, testen en draaien custom AI agents en automatiseringen die echt werk uit handen nemen. Live in 30 tot 90 dagen.
+- [A cold email engine that fills your calendar.](https://imisofts.nl/leadgeneratie): Done-for-you cold email en leadgeneratie die je agenda vult. Domeinen, deliverability, targeting en opvolging volledig geregeld.
+- [Web, app and SaaS, shipped in weeks.](https://imisofts.nl/webontwikkeling): Moderne websites, web apps, mobiele apps en SaaS producten, opgeleverd in weken en gebouwd om te schalen.
+- [Shopify stores that convert and get found.](https://imisofts.nl/ecommerce): Shopify winkels en apps die converteren en vindbaar zijn voor AI shoppers. Van bouw tot conversie-optimalisatie.
+
+## Contact
+- Free audit / contact: https://imisofts.nl/contact
+- Email: growth@imisofts.com
+
