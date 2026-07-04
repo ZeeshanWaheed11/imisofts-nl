@@ -1,0 +1,3 @@
+# hreflang between market sites (Google reads Link headers)
+/
+  Link: <https://imisofts.nl/>; rel="alternate"; hreflang="nl-NL", <https://imisofts.de/>; rel="alternate"; hreflang="de-DE", <https://imisofts.com/>; rel="alternate"; hreflang="en", <https://imisofts.com/>; rel="alternate"; hreflang="x-default"
